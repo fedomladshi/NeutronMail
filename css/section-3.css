@@ -1,0 +1,192 @@
+.section-3 {
+    margin-top: 59px;
+    position: relative;
+}
+.section-3__content {
+    display: flex;
+    flex-direction: column;
+    min-width: calc(1400px - 2*200px);
+    z-index: 3;
+}
+.statement {
+    position: relative;
+    padding-left: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 527px;
+    /* background-color: aquamarine; */
+    font-family: 'MalagaReg';
+}
+.statement__text {
+    font-size: 24px;
+    letter-spacing: 0.25px;
+    line-height: 31px;
+}
+.statement__boston-Helard {
+    margin-top: 10px;
+    font-size: 16px;
+    color :rgb(114,114,114);
+    letter-spacing: 0.15px;
+}
+.statement-dots {
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.statement-dots__big-one {
+    margin-top: 2px;
+    margin-bottom: 11px;
+    border-radius: 50%;
+    background-color: black;
+    width: 13px;
+    height: 13px;
+}
+.statement-dots__small-one {
+    border-radius: 50%;
+    background-color: rgb(183,183,183);
+    width: 11px;
+    height: 11px;
+    margin-bottom: 11px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.content_section-3 {
+    width: 438px;
+    margin-top: 88px;
+    margin-right: 25px;
+    z-index: 1;
+}
+.content__title {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.content__title_align-end {
+    text-align: end;
+}
+.content__text {
+    line-height: 22px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.elements-button {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: black;
+}
+.elements__button-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.elements__button-icon {
+    margin: 11px;
+}
+.elements__company {
+    font-size: 21px;
+    letter-spacing: 0.6px;
+}
+.elements__company_space {
+    letter-spacing: 2px;
+}
+.elements__title {
+    font-size: 15px;
+}
+.elements {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    z-index: 2;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.elements .elements-button:last-of-type {
+    margin-left: 13px;
+}
+.c-83 {
+    color: rgb(83,83,83);
+}
+.section-3__image {
+    position: absolute;
+    right: 269px;
+    top: -18px;
+    z-index: 0;
+}
+.section-3__background {
+    position: absolute;
+    width: 100vw;
+    right: 0;
+    top: 100px;
+}
+@media screen and (max-width: 1644px) {
+    .section-3__image {
+        right: 169px;
+    }
+}
+@media screen and (max-width: 1425px) {
+    .section-3__image {
+        right: 69px;
+    }
+}
+@media screen and (max-width: 1149px) {
+    .section-3__content {
+        padding: 0 15px;
+        width: 100%;
+        min-width: 0px;
+    }
+    .section-3__image {
+        display: none;
+    }
+    .statement {
+        align-self: center;
+    }
+}
+@media screen and (max-width: 730px) {
+    .statement-dots {
+        display: none;
+    }
+    .elements {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .elements-button {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+    }
+    .statement {
+        width: 100%;
+    }
+    .elements .elements-button:last-of-type {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .statement__text {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .content_section-3 {
+        width: 100%;
+    }
+    .button-2.elements-button {
+        margin-top: 15px 12.5px 0 30px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .elements-button {
+        width: 100%;
+    }
+}

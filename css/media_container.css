@@ -1,0 +1,29 @@
+.container {
+    max-width: calc(1370px + 30px);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media screen and  (max-width: 1399px) {
+    .container {
+        max-width: calc(1170px + 30px);
+    }
+} 
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: calc(100% - 30px);
+    }
+}
+@media screen and  (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and  (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .section-3__image {
+        display: none;
+    }
+
+}

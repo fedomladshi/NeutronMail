@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/section-1.css">
+  <link rel="stylesheet" href="css/section-2.css">
+  <link rel="stylesheet" href="css/section-3.css">
+  <link rel="stylesheet" href="css/section-4.css">
+  <link rel="stylesheet" href="css/media_container.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="libs/fontawesome-free-5.8.1-web/css/all.css">
+  <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="/libs/jquery/jquery-3.3.1.js"></script>
+  <title>NeutronMail</title>
+</head>
+
+<body>
+  <div class="social">
+    <div class="social__networks">
+      <ul class="social__list">
+        <li class="social__link"><i class="fab fa-google-plus-square c-103"></i></li>
+        <li class="social__link"><i class="fab fa-facebook-square c-103"></i></li>
+        <li class="social__link"><i class="fab fa-twitter-square c-103"></i></li>
+      </ul>
+    </div>
+  </div>
+  <header class="header">
+      <nav class="burger__navigation">
+          <ul class="burger-navigation__list">
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">About<span></span> </a></li>
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">Security<span></span></a></li>
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">Blog<span></span></a></li>
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">Careers<span></span></a></li>
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">Support<span></span></a></li>
+            <li class="burger-navigation__link"><a href="#" class="burger-navigation__ref ff-bold c-69">Donate<span></span></a></li>
+          </ul>
+        </nav>
+    <div class="container justify-content-center">
+      <div class="header-top">
+        <div class="navigation">
+          <div class="nav-left">
+            <div class="nav-left__logo ff-bold">
+              <a href="/index.html" class="nav-left__logo_mod color-gray">neutron<span
+                  class="color-violet">Mail</span></a>
+            </div>
+          </div>
+          <div class="nav-right">
+            <nav class="nav-right__navigation">
+              <ul class="nav-right__list">
+                <li><a href="#" class="nav-right__link ff-regular c-69">About<span></span> </a></li>
+                <li><a href="#" class="nav-right__link ff-regular c-69">Security<span></span></a></li>
+                <li><a href="#" class="nav-right__link ff-regular c-69">Blog<span></span></a></li>
+                <li><a href="#" class="nav-right__link ff-regular c-69">Careers<span></span></a></li>
+                <li><a href="#" class="nav-right__link ff-regular c-69">Support<span></span></a></li>
+                <li><a href="#" class="nav-right__link ff-regular c-69">Donate<span></span></a></li>
+              </ul>
+            </nav>
+            <div class="nav-right__authorization">
+              <div class="nav-right__login">
+                <a href="#" class="login-link">
+                  <i class="nav-right__icon fas fa-sign-in-alt color-violet"></i>
+                  <p class="nav-right__log-text c-69 ff-bold color-gray">Log in</p>
+                  <span></span>
+                </a>
+              </div>
+              <div class="nav-right__registration">
+                <a href="" class="nav-right__button ff-bold">Sign up</a>
+              </div>
+            </div>
+          </div>
+          <div class="burger-menu">
+            <a href="#" class="burger-menu__button">
+              <span class="burger-menu__line"></span>
+            </a>
+          </div>
+          <script>
+              $(document).ready(function() {
+                let button = $('.burger-menu__button');
+                let burger = $('.burger__navigation');
+                let button_active = $('.burger-menu__button_active');
+                button.click(function() {
+                  button.toggleClass('burger-menu__button_active');
+                  burger.toggleClass('active');
+                });
+                button_active.click(function() {
+                  button.removeClass('burger-menu__button_active');
+                  burger.removeClass('active');
+                });
+              });
+            </script>
+        </div>
+        <div class="select-language">
+          <ul class="select-language__list">
+            <li><a href="#" class="select-language__link ff-regular c-149">English</a></li>
+            <li><a href="#" class="select-language__link ff-regular c-149">French</a></li>
+            <li><a href="#" class="select-language__link ff-regular c-149">Italian</a></li>
+            <li><a href="#" class="select-language__link ff-regular c-149">Polish</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-bottom">
+        <div class="header-up">
+          <h1 class="header-up__title f-sbold c-69">Secure Email <span
+              class="header-up__title-margin">Communication</span></h1>
+        </div>
+        <div class="header-middle">
+          <p class="header-middle__subtitle f-sbold">Based in <span class="c-red">Somewhere</span></p>
+        </div>
+        <div class="header-elements">
+          <a href="" class="button ff-bold">
+            Create account
+          </a>
+          <div class="buttons-murgin">
+            <a href="" class="header-elements__button bg-purple">
+              <i class="fab fa-apple vrt-a"></i>
+            </a>
+            <a href="" class="header-elements__button bg-purple">
+              <i class="fab fa-google-play vrt-a"></i>
+            </a>
+          </div>
+        </div>
+        <div class="header-image">
+          <img src="/assets/images/header_gradient.png" alt="">
+        </div>
+        <div class="header-shadow">
+          <img src="/assets/images/header_shadow.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="container d-flex section-1__content">
+      <div class="content__top">
+        <div class="block block-1__line">
+          <div class="block-top">
+            <div class="block-top__left">
+              <img src="/assets/images/swiss_privacy.png" alt="" class="block-top__image image-1__location">
+            </div>
+            <div class="block-top__right">
+              <h3 class="block-top__title ff-regular с-85 block-top__title_mod-1">
+                Swiss Privacy
+              </h3>
+              <p class="block-top__subtitle ff-regular">
+                Data Security and Neutrality
+              </p>
+            </div>
+          </div>
+          <div class="block-bottom">
+            <p class="block-bottom__text ff-regular">
+              NeutronMail is incorporated in Somewhere and all our servers are located in Switzerland. This means
+              all
+              user data is
+              protected by strict Swiss privacy laws.
+            </p>
+          </div>
+        </div>
+        <div class="block block-2__line">
+          <div class="block-top">
+            <div class="block-top__left">
+              <img src="/assets/images/double_encryption.png" alt="" class="block-top__image image-2__location">
+            </div>
+            <div class="block-top__right">
+              <h3 class="block-top__title ff-regular с-85">
+                Double Encryption
+              </h3>
+              <p class="block-top__subtitle ff-regular">
+                Automatic Email Security
+              </p>
+            </div>
+          </div>
+          <div class="block-bottom">
+            <p class="block-bottom__text block-bottom__text_margin ff-regular">
+              All emails are secured automatically with end-to-end encryption. This means even we cannot decrypt
+              and
+              read your emails. As a result, your encrypted emails cannot
+              be shared with third parties.
+            </p>
+          </div>
+        </div>
+        <div class="block block-3__line">
+          <div class="block-top">
+            <div class="block-top__left">
+              <img src="/assets/images/anonymous_email.png" alt="" class="block-top__image image-3__location">
+            </div>
+            <div class="block-top__right">
+              <h3 class="block-top__title ff-regular с-85">
+                Anonymous Email
+              </h3>
+              <p class="block-top__subtitle ff-regular">
+                Protect Your Privacy
+              </p>
+            </div>
+          </div>
+          <div class="block-bottom">
+            <p class="block-bottom__text ff-regular">
+              No personal information is required to create your secure email account. By default, we do not keep
+              any
+              IP
+              logs which can be linked to your anonymous email account. Your privacy comes first.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content__bottom">
+        <div class="title-bottom">
+          <h3 class="title-bottom__title ff-regular">Physical Security</h3>
+          <p class="title-bottom__subtitle ff-regular">NeutronMail's infrastructure resides in Europe's <span
+              class="c-red">most secure</span><br> <span class="title-bottom__span">datacenter, underneath 1000
+              meters of solid rock.</span></p>
+          <a href="" class="button-1 ff-regular">
+            <span class="button-1__text">Learn more about our security features</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="section-2">
+    <div class="section-2__images">
+      <img src="/assets/images/images/company_list_01.gif" alt="">
+      <img src="/assets/images/images/company_list_02.gif" alt="">
+      <img src="/assets/images/images/company_list_03.gif" alt="">
+      <img src="/assets/images/images/company_list_04.gif" alt="">
+      <img src="/assets/images/images/company_list_05.gif" alt="">
+      <img src="/assets/images/images/company_list_06.gif" alt="">
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="container d-flex justify-content-center">
+      <div class="section-3__content">
+
+        <div class="statement">
+          <div class="statement-dots">
+            <div class="statement-dots__big-one"></div>
+            <div class="statement-dots__small-one"></div>
+            <div class="statement-dots__small-one"></div>
+          </div>
+          <p class="statement__text">A new email service being developed by a group from MIT and CERN promises to bring
+            secure,
+            encrypted email to the masses and keep sensitive information away from prying eyes.</p>
+          <p class="statement__boston-Helard">— Boston Herald</p>
+        </div>
+        <div class="content content_section-3">
+          <h1 class="content__title content__title_align-end c-83 ff-regular">Any device, anywhere</h1>
+          <p class="content__text content__title_align-end c-149 ff-regular">The NeutronMail inbox is optimized for
+            productivity. Each detail within our
+            secure
+            email service is optimized to help you better read, organize, and send email.</p>
+          <div class="elements justify-content-end">
+            <a href="https://www.apple.com/" class="elements-button">
+              <div class="elements__button-icon">
+                <img src="/assets/images/apple.png" alt="">
+              </div>
+              <div class="elements__button-text">
+                <p class="elements__title ff-regular">Dowload on the</p>
+                <p class="elements__company elements__company_space ff-bold">App Store</p>
+              </div>
+            </a>
+            <a href="https://play.google.com/store?hl=ru" class="elements-button">
+              <div class="elements__button-icon">
+                <img src="/assets/images/multicolored_google.png" alt="">
+              </div>
+              <div class="elements__button-text">
+                <p class="elements__title ff-regular">Get it on</p>
+                <p class="elements__company ff-regular">Google play</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <img class="section-3__image" src="/assets/images/devices.png" alt="">
+      </div>
+      <img class="section-3__background" src="/assets/images/bg.png" alt="">
+    </div>
+  </section>
+  <section class="section-4">
+    <div class="container d-flex justify-content-center">
+      <div class="section-4__content">
+        <div class="content content_margin">
+          <h1 class="content__title content__title_align-center c-83 ff-regular">Privacy is a fundamental human right.
+          </h1>
+          <p class="content__text content__text_size content__text_align-center c-149 ff-regular">Your support helps us
+            to protect privacy world-wide.</p>
+        </div>
+        <div class="elements elements_margin">
+          <a href="" class="button elements__button ff-bold">
+            <img class="button__icon" src="/assets/images/upgrade.png" alt="">
+            <p>Upgrade to Paid Plan</p>
+          </a>
+          <a href="" class="button-2 elements__button ff-bold">
+            <p class="button__icon">$</p>
+            <p>Donate</p>
+          </a>
+        </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-top">
+          <p class="footer-top__secure ff-regular">Those, who help us secure your privacy</p>
+          <div class="section-2__images footer-top__picture">
+            <img src="../assets/images/images/company_list_2_01.gif" alt="">
+            <img src="/assets/images/images/company_list_2_02.gif" alt="">
+            <img src="/assets/images/images/company_list_2_03.gif" alt="">
+            <img src="/assets/images/images/company_list_2_04.gif" alt="">
+            <img src="/assets/images/images/company_list_2_05.gif" alt="">
+            <img src="/assets/images/images/company_list_2_06.gif" alt="">
+            <img src="/assets/images/images/company_list_2_07.gif" alt="">
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="left">
+            <div class="support">
+              <p class="support__paragraph ff-regular">General: <a href="mailto"
+                  class="support__address support__address_none ff-bold">contact@neutronmail.ch</a></p>
+              <p class="support__paragraph ff-regular">Media: <a href="mailto"
+                  class="support__address support__address_none ff-bold">media@neutronmail.ch</a></p>
+              <p class="support__paragraph ff-regular">Security: <a href="mailto"
+                  class="support__address support__address_none ff-bold">security@neutronmail.ch</a></p>
+              <p class="support__paragraph support__paragraph_margin ff-regular">For support inquiries, please visit</p>
+              <a href="mailto" class="support__address support__address_underline ff-bold">neutronmail.com/support</a>
+            </div>
+            <div class="company company_margin">
+              <h3 class="title ff-bold">Company</h3>
+              <ul class="list">
+                <li class="list-link"><a class="link" href="">Blog</a></li>
+                <li class="list-link"><a class="link" href="">Team</a></li>
+                <li class="list-link"><a class="link" href="">Careers</a></li>
+                <li class="list-link"><a class="link" href="">Support</a></li>
+                <li class="list-link"><a class="link" href="">Donate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <div class="legal legal_margin">
+              <h3 class="title ff-bold">legal</h3>
+              <ul class="list">
+                <li class="list-link"><a class="link" href="">Imprint</a></li>
+                <li class="list-link"><a class="link" href="">Privacy Policy</a></li>
+                <li class="list-link"><a class="link" href="">Terms & Conditions</a></li>
+                <li class="list-link"><a class="link" href="">Transparency Report</a></li>
+                <li class="list-link"><a class="link" href="">Report Abuse</a></li>
+              </ul>
+            </div>
+            <div class="neutronmail neutronmail_margin">
+              <h3 class="title ff-bold">NeutronMail</h3>
+              <ul class="list">
+                <li class="list-link"><a class="link" href="">Pricing</a></li>
+                <li class="list-link"><a class="link" href="">Security</a></li>
+                <li class="list-link"><a class="link" href="">Shop</a></li>
+                <li class="list-link"><a class="link" href="">Press/Media Kit</a></li>
+                <li class="list-link"><a class="link" href="">Onion Site</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <section class="copyright">
+    <div class="container">
+      <div class="select-social select-language">
+        <ul class="select-social__list select-language__list">
+          <li><a href="#" class="select-social__link select-language__link ff-regular">Facebook</a></li>
+          <li><a href="#" class="select-social__link select-language__link ff-regular">Twitter</a></li>
+          <li><a href="#" class="select-social__link select-language__link ff-regular">Google+</a></li>
+          <li><a href="#" class="select-social__link select-language__link ff-regular">Feedback
+              Forum</a></li>
+          <li><a href="#" class="select-social__link select-language__link ff-regular">Reddit</a></li>
+        </ul>
+      </div>
+      <p class="copyright__text ff-regular">© 2017 Neutron Technologies AG. All Rights Reserved.</p>
+    </div>
+  </section>
+</body>
+
+</html>

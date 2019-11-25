@@ -1,0 +1,26 @@
+.section-2 {
+    display: flex;
+    margin-top: 71px;
+}
+.section-2__images {
+    padding-left: 21px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+@media (max-width: 1800px){
+}
+@media (max-width: 1500px){
+    .section-2 {
+       left: 0;
+    }
+}
+@media (max-width: 648px){
+    .section-2 {
+       margin-top: 0px;
+    }
+    .section-2__images {
+        padding: 0;
+        margin: 0;
+    }
+}

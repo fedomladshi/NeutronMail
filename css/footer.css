@@ -1,0 +1,275 @@
+.footer {
+    z-index: 2;
+    width: 100%;
+}
+
+.footer-content {
+    margin-right: 200px;
+    border-right: 1px solid rgb(185, 185, 185);
+    border-top: 1px solid rgb(185, 185, 185);
+    z-index: 1;
+}
+
+.footer-top__secure {
+    font-size: 14px;
+    color: rgb(122, 104, 104);
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 20px;
+    letter-spacing: 0.3px;
+}
+
+.footer-top__picture {
+    margin-right: 5px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 746px;
+
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 453px;
+}
+
+.footer-bottom {
+    position: relative;
+    display: flex;
+    margin-top: 141px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.list>.list-link:before {
+    width: 10px;
+    height: 10px;
+    background-image: url(/assets/images/dot.png);
+}
+
+.list {
+    list-style: square;
+    direction: rtl;
+}
+
+.title {
+    font-size: 18px;
+    position: relative;
+    right: -18px;
+    text-align: end;
+    margin-bottom: 26px;
+}
+
+.link {
+    position: relative;
+    right: -5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    line-height: 23px;
+}
+
+.legal_margin {
+    margin-right: 73px;
+}
+
+.company_margin {
+    margin-right: 38px;
+}
+
+.neutronmail_margin {
+    margin-right: 23px;
+}
+
+.legal,
+.title {
+    width: 130px;
+}
+
+.support {
+    position: relative;
+    font-size: 14px;
+}
+
+.support__paragraph_margin {
+    margin-top: 31px;
+}
+
+.support__paragraph {
+    margin-bottom: 9px;
+}
+
+.support__address_none {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.support__address_underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(143, 143, 143);
+    color: rgb(92, 92, 92);
+}
+
+.support:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    height: 131px;
+    width: 1px;
+    background-color: rgb(185, 185, 185);
+}
+
+.footer-bottom:after {
+    content: "";
+    position: absolute;
+    right: 452px;
+    top: 0px;
+    height: 316px;
+    width: 1px;
+    background-color: rgb(185, 185, 185);
+}
+
+.support__address:hover {
+    text-decoration: underline;
+}
+
+.support__address_underline:hover {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* copyright */
+.copyright {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 60px;
+    z-index: 2;
+
+}
+.select-social__link {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(214, 214, 214);
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+.copyright__text {
+    margin-top: 19px;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+    .footer-bottom:after {
+        right: 386px;
+    }
+
+    .footer-content {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1462px) {
+    .footer-bottom {
+        padding-left: 150px;
+    }
+
+    .footer-bottom:after {
+        display: none;
+    }
+
+    .left {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-4__content::after {
+        display: none;
+    }
+
+    .footer-content {
+        border-top: 1px solid rgb(185, 185, 185);
+    }
+
+    .footer-bottom:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .footer-content {
+        margin-right: 0;
+        border-bottom: 1px solid rgb(185, 185, 185);
+        border-right: 0px;
+        padding: 15px;
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        padding-left: 100px;
+    }
+
+    .left {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer-bottom {
+        padding: 0;
+    }
+
+    .company_margin {
+        margin-right: 25px;
+    }
+
+    .left {
+        padding-right: 0;
+    }
+    .support:before {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 949px) {
+    .left {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .right {
+        padding-top: 50px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .select-social__link {
+        font-size: 11px;
+    }
+}
